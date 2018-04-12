@@ -7,7 +7,7 @@ I've made this tools long time ago but it's quite helpful for me even nowadays.
 
 Very simple thing- just type every data into inputs, turn on sound on your computer/tablet/mobile and go.
 Have a nice excersise :muscle:
->**Nie ma lipy!!**
+>**Nie ma lipy!!!**
 >~_Robert Burneika_
 
 # ToDo
@@ -15,14 +15,16 @@ Have a nice excersise :muscle:
 I know that this code sucks. Yeah, really- children don't do this at home, school or anywhere. It's bad! :grimacing:
 But I have plan to rewrite it... one day, maybe :smirk:
 
--[X] do some cleaning in HTML (what the...)
--[X] do some cleaning in CSS (holy moly...)
--[X] do some cleaning with folders and files (...kill me)
--[X] upload this crap on GitHub
--[X] start thinking about refactoring
--[ ] rewrite to ES6
--[ ] optimize
--[ ] rewrite to functional form
--[ ] give some nice animations and CSS (I like fancy things)
--[ ] transcrpit by babel
--[ ] minify
+- [X] do some cleaning in HTML (what the...)
+- [X] do some cleaning in CSS (holy moly...)
+- [X] do some cleaning with folders and files (...kill me)
+- [X] upload this crap on GitHub
+- [X] start thinking about refactoring
+- [X] translate to english
+- [ ] stop changing anything. Just start this from scratch...
+- [ ] rewrite to ES6
+- [ ] optimize
+- [ ] rewrite to functional form
+- [ ] give some nice animations and CSS (I like fancy things)
+- [ ] transcrpit by babel
+- [ ] minify

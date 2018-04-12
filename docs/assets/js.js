@@ -61,7 +61,7 @@ window.onload = function () {
 				}
 			}, 1000);
 		} else {
-			alert('Uzupełnij wszystkie pola');
+			alert('Fill all inputs');
 		}
 	};
 	var stop = function () {
@@ -71,7 +71,7 @@ window.onload = function () {
 		startTime.innerHTML = 0;
 	};
 	var series = function () {
-		voice('Zaczynamy');
+		voice("We're starting");
 		repeats();
 		actualSeries++;
 		actualSeriesCount.innerHTML = actualSeries;
@@ -86,7 +86,7 @@ window.onload = function () {
 			} else {
 				clearInterval(repeatsTimer);
 				if (actualSeries != trainSeriesValue) {
-					voice('Odpoczynek, następna seria numer' + (actualSeries + 1));
+					voice('Rest, next is round number ' + (actualSeries + 1));
 					setTimeout(series, trainDelayValue * 60000);
 				} else {
 					stop();
@@ -96,7 +96,7 @@ window.onload = function () {
 		}, trainDurationValue * 1000);
 	};
 	var success = function () {
-		voice('Koniec treningu');
+		voice('Training done');
 	}
 	var voice = function (argument) {
 		msg = new SpeechSynthesisUtterance(argument);
@@ -125,6 +125,6 @@ window.onload = function () {
 	btnStop.addEventListener('click', function (e) {
 		e.preventDefault();
 		stop();
-		voice('Trening wstrzymany');
+		voice('Training stopped');
 	});
 };
