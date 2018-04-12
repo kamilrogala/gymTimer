@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gym timer</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form action="/" id="gymTrainerForm">
+		<div class="group inputGroup">
+			<label for="trainSeries">Ilość serii</label>
+			<input type="number" name="trainSeries" id="trainSeries" class="inputbox">
+		</div>
+		<div class="group inputGroup">
+			<label for="trainRepeats">Ilość powtórzeń</label>
+			<input type="number" name="trainRepeats" id="trainRepeats" class="inputbox">
+		</div>
+		<div class="group inputGroup">
+			<label for="trainDelay">Odpoczynek między seriami (w minutach)</label>
+			<input type="number" name="trainDelay" id="trainDelay" class="inputbox">
+		</div>
+		<div class="group inputGroup">
+			<label for="trainDuration">Czas na 1 powtórzenie (w sekundach)</label>
+			<input type="number" name="trainDuration" id="trainDuration" class="inputbox">
+		</div>
+		<div class="txt">
+			<p id="summaryRepeats">Łącznie powtórzeń: <span>0</span></p>
+			<p id="summaryTime">Łącznie czasu poświęconego na to ćwiczenie: <span>0</span> sekund, czyli ok. <span>0</span> minut</p>
+		</div>
+		<div id="app">
+			<div id="startTime">Startujemy za <span></span> sekund, szykuj się!</div>
+			<div id="counts">
+				<div class="seriesCount">Seria <span id="actualSeriesCount">/</span><span id="leftSeriesCount"></span></div>
+				<div class="repeatsCount">Powtórzenie w serii <span id="actualRepeatsCount">/</span><span id="leftRepeatsCount"></span></div>
+			</div>
+		</div>
+		<div class="group btnGroup">
+			<button type="submit" id="btnStart" class="btn btnStart">Start</button>
+			<button type="reset" id="btnStop" class="btn btnStop">Stop</button>
+		</div>
+	</form>
+	<script src="assets/js.min.js"></script>
+</body>
+</html>
